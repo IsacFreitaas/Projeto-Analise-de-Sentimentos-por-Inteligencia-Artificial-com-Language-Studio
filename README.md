@@ -1,2 +1,2 @@
-# Projeto-An-lise-de-Sentimentos-por-Intelig-ncia-Artificial-com-Language-Studio-Microsoft-Azure-AI
-Repositório de demonstração do uso do Language Studio da Azure AI para fazer a análise de sentimentos, argumentos e feedback de textos. Neste repositório descrevo como fazer um teste desse processo, utilizando de Prints e GIFs, e alguns insights e dicas que possam auxiliar outras pessoas. No arquivo "Input.md" estarão os textos que utilizei.
+### Projeto: Análise de Sentimentos por Inteligência Artificial com Language Studio da Microsoft Azure AI.
+
