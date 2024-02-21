@@ -20,7 +20,7 @@ Vou apresentar brevemente a ferramenta, usando de textos-exemplo para demostrar 
 
 --------------------------
 
-Antes de usarmos as ferramentas do Language Studio, precisamos criar um recurso no portal da Azure para ser utilizado.
+Antes de usarmos as ferramentas do Language Studio, precisamos criar um recurso no portal da Azure para ser utilizado. Para isso, você precisa ter uma conta Microsft.
 
 
 
@@ -28,6 +28,10 @@ Pra criarmos o recurso, vamos entrar em "https://www.portal.azure.com" e clicar 
 <div align="center">
 <img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/cd98c54b-9be4-4915-8e7d-d099ab9d4067" width="800px" />
 </div>
+
+Vai ser aberto a parte de Criar recurso, na parte de Marketplace do portal da Azure.
+
+
 
 Aqui, vamos na caixa de pesquisa e procuramos por "Language Services" (ou "Análise de Texto").
 <div align="center">
@@ -85,12 +89,68 @@ Então você espera alguns minutos até terminar a implantação finalizar. Apó
 
 --------------------------
 
-### Parte 2- Análise de Sentimentos no Language Studio.
+### Parte 2- Análise de Sentimentos (satisfação) no Language Studio.
 
 --------------------------
 
-Entramos em "https://language.cognitive.azure.com/"
+Agora acessamos "https://language.cognitive.azure.com/". 
 
+
+
+Aqui você precisará logar com sua conta Microsoft e depois selecionar o grupo de recursos e o recurso que criamos anteriormente.
+<div align="center">
+<img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/56e46715-f839-4ce6-a190-60d35ee00919" width="800px" />
+</div>
+
+Na página inicial do Language Studio, você vai na aba "Classify text", e na primeira opção ("Analyze sentiment and mine opinion") você clica em "Try it out".
+<div align="center">
+<img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/417a0d11-9a00-4efe-9740-c02bb522c7cd" width="800px" />
+</div>
+
+--------------------------
+
+Agora precisamos de um texto para ser analisado.
+
+
+
+Para isso, vou pedir ao Chat GPT para criar um texto de opinião de um review de um produto comprado pela internet.
+
+
+
+Vou pedir que de preferência, seja um review negativo sobre tal produto.
+
+
+
+<div align="center">
+<img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/4d14f57c-c6ae-4062-9ad1-42bb16982174" width="925px" />
+</div>
+
+--------------------------
+
+Agora voltamos ao Language Studio, selecionamos o idioma do texto (caso peça, você também precisará selecionar o recurso que vocẽ deseja usar) e colamos o texto que desejamos usar a ferramenta para analisar.
+
+
+
+Então descemos mais um pouco a página e marcamos a caixinha que confirmamos que temos ciência que esse Demo usará valores incluidos em nosso recurso da Azure,
+e clicamos em "Run".
+
+<div align="center">
+<img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/1130df90-1d1c-4acb-b505-760fc4f4cf93" width="800px" />
+</div>
+
+
+Então, ao terminar de carregar, podemos ver os resultados do nosso experimento:
+<div align="center">
+<img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/963b5024-8ae3-43e3-819b-265125688b6a" width="800px" />
+</div>
+
+### *A ANÁLISE COMPLETA ESTARÁ NA PASTA "OUTPUT" JUNTAMENTE COM A SAÍDA EM JSON.
+
+--------------------------
+
+### Parte 3- 
+
+--------------------------
 
 
 Obrigado por me acompanhar nestes testes até aqui!
