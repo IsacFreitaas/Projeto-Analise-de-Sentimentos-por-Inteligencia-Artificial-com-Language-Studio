@@ -8,7 +8,7 @@ Com o Language Studio você dá todas as ferramentas para uma máquina desvendar
 
 
 
-Olá! Me chamo Isac Freitas, e aqui vou demonstrar o uso da ferramenta Language Studio da Microsoft Azure AI para fazer análise de textos e extrair informações tais como: análise de sentimentos (satisfação), palavras-chave, frases-chave e outros.
+Olá! Me chamo Isac Freitas, e aqui vou demonstrar o uso da ferramenta Language Studio da Microsoft Azure AI para fazer análise de textos e extrair informações tais como: análise de sentimentos (satisfação), palavras-chave, frases-chave e outros. Hoje iremos testar somente a parte de análise de sentimentos.
 
 
 
@@ -144,14 +144,7 @@ Então, ao terminar de carregar, podemos ver os resultados do nosso experimento:
 <img src="https://github.com/IsacFreitaas/Projeto-Analise-de-Sentimentos-por-Inteligencia-Artificial-com-Language-Studio/assets/65254733/963b5024-8ae3-43e3-819b-265125688b6a" width="800px" />
 </div>
 
-### *A ANÁLISE COMPLETA ESTARÁ NA PASTA "OUTPUT" JUNTAMENTE COM A SAÍDA EM JSON.
-
---------------------------
-
-### Parte 3- 
-
---------------------------
-
+*A ANÁLISE COMPLETA ESTARÁ NA PASTA "OUTPUT" JUNTAMENTE COM A SAÍDA EM JSON.
 
 Obrigado por me acompanhar nestes testes até aqui!
 
@@ -162,6 +155,14 @@ Então é isso.
 # Este foi o meu primeiro projeto de Language Studio da Microsoft Azure ML, em meus estudos em Ciência de Dados.
 
 Obrigado pela atenção!
+
+LINK para Documentação de Apoio:
+
+
+
+1- https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/06-text-analysis.html
+
+
 
 **Qualquer dúvida sobre o projeto, ou caso precise de auxílio, fico a disposição. Entre em contato comigo por meio de minhas redes sociais (listadas abaixo ou em meu perfil).
 
