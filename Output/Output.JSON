@@ -1,0 +1,241 @@
+{
+    "documents": [
+        {
+            "id": "id__1217",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.11,
+                "neutral": 0.04,
+                "negative": 0.85
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 0,
+                    "length": 72,
+                    "text": "Título: Decepção Total: Um Produto que Não Passou no Teste da Qualidade\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 72,
+                    "length": 56,
+                    "text": "Minha última compra nesta loja foi uma grande decepção. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 99,
+                            "length": 4,
+                            "text": "loja",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 119,
+                            "length": 8,
+                            "text": "decepção",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.01,
+                        "negative": 0.98
+                    },
+                    "offset": 128,
+                    "length": 50,
+                    "text": "O produto não correspondia à qualidade prometida. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.06,
+                        "neutral": 0.08,
+                        "negative": 0.87
+                    },
+                    "offset": 178,
+                    "length": 63,
+                    "text": "Desde a aparência até a funcionalidade, tudo deixou a desejar. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.11,
+                                "negative": 0.89
+                            },
+                            "offset": 187,
+                            "length": 9,
+                            "text": "aparência",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.11,
+                                "negative": 0.89
+                            },
+                            "offset": 203,
+                            "length": 14,
+                            "text": "funcionalidade",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/3/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.11,
+                                "negative": 0.89
+                            },
+                            "offset": 224,
+                            "length": 6,
+                            "text": "deixou",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 241,
+                    "length": 102,
+                    "text": "O material frágil e o serviço de atendimento ao cliente pouco prestativo apenas agravaram a situação. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 244,
+                            "length": 8,
+                            "text": "material",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/4/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0,
+                                "negative": 1
+                            },
+                            "offset": 253,
+                            "length": 6,
+                            "text": "frágil",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.72,
+                        "neutral": 0.21,
+                        "negative": 0.07
+                    },
+                    "offset": 343,
+                    "length": 59,
+                    "text": "Esperava mais comprometimento com a satisfação do cliente. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 402,
+                    "length": 51,
+                    "text": "Em resumo, uma experiência extremamente frustrante.",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 418,
+                            "length": 11,
+                            "text": "experiência",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.02,
+                                "negative": 0.98
+                            },
+                            "offset": 443,
+                            "length": 10,
+                            "text": "frustrante",
+                            "isNegated": false
+                        }
+                    ]
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2022-11-01"
+}
